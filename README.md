@@ -26,6 +26,7 @@ apart and never overlap.
 |---|---|---|
 | [01](uni/labs/lab01) | Tables | `colspan`, `rowspan`, merged cells, `<caption>` |
 | [02](uni/labs/lab02) | Lists | `<ul>`, `<ol type="I">`, three levels of nesting |
+| [03](uni/labs/lab03) | Forms | input types, `<fieldset>`, `<datalist>`, validation via `required` / `pattern` |
 
 ---
 

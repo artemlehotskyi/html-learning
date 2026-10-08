@@ -1,0 +1,191 @@
+<!doctype html>
+<html class="no-js" lang="uk">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Реєстрація на студентський IT-хакатон</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Реєстрація учасників на студентський IT-хакатон 2026">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<h1>Студентський IT-хакатон 2026</h1>
+<p><strong>Реєстрація учасників</strong></p>
+<p><em>Поля, позначені <abbr title="обов'язкове поле">*</abbr>, обов'язкові для заповнення.</em></p>
+<hr>
+<form method="post">
+  <fieldset>
+    <legend><h2>Особисті дані</h2></legend>
+    <p>
+      <label for="fname">Ім'я <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="text" id="fname" name="firstname" placeholder="Введіть ім'я" maxlength="30" size="30" required>
+    </p>
+    <p>
+      <label for="lname">Прізвище <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="text" id="lname" name="lastname" placeholder="Введіть прізвище" maxlength="30" size="30" required>
+    </p>
+    <p>
+      <label for="email">Email <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="email" id="email" name="email" placeholder="Введіть email" size="30" required>
+    </p>
+    <p>
+      <label for="telephone">Телефон <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="tel" id="telephone" name="phone" placeholder="+380XXXXXXXXX" pattern="\+380[0-9]{9}" title="Формат: +380XXXXXXXXX" size="30" required><br>
+    </p>
+    <p>
+      <label for="date">Дата народження <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="date" id="date" name="birthdate" min="1990-01-01" max="2010-12-31" required>
+    </p>
+    <h3>Стать</h3>
+    <p>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Чоловіча</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Жіноча</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Не вказувати</label>
+    </p>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend><h2>Навчання</h2></legend>
+    <p>
+      <label for="university">Університет <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="text" id="university" name="university" list="university-list" size="30" required>
+      <datalist id="university-list">
+        <option value="ЧНУ">
+        <option value="КПІ">
+        <option value="ЛНУ">
+        <option value="Інший">
+      </datalist>
+    </p>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend><h2>Участь у Хакатоні</h2></legend>
+    <h3>Напрям <abbr title="обов'язкове поле">*</abbr></h3>
+    <p>
+      <input type="radio" id="ai" name="track" value="ai" required>
+      <label for="ai">AI &amp; Data</label><br>
+      <input type="radio" id="web" name="track" value="web" required>
+      <label for="web">Web</label><br>
+      <input type="radio" id="mobile" name="track" value="mobile" required>
+      <label for="mobile">Mobile</label><br>
+      <input type="radio" id="gamedev" name="track" value="gamedev" required>
+      <label for="gamedev">Game Dev</label>
+    </p>
+    <h3>Технології</h3>
+    <p>
+      <input type="checkbox" id="html" name="technologies" value="HTML">
+      <label for="html">HTML/CSS</label><br>
+      <input type="checkbox" id="js" name="technologies" value="JavaScript">
+      <label for="js">JavaScript</label><br>
+      <input type="checkbox" id="python" name="technologies" value="Python">
+      <label for="python">Python</label><br>
+      <input type="checkbox" id="csharp" name="technologies" value="Csharp">
+      <label for="csharp">C#</label><br>
+      <input type="checkbox" id="sql" name="technologies" value="SQL">
+      <label for="sql">SQL</label>
+    </p>
+    <h3>Формат участі <abbr title="обов'язкове поле">*</abbr></h3>
+    <p>
+      <input type="radio" id="online" name="format" value="online" required>
+      <label for="online">Онлайн</label><br>
+      <input type="radio" id="offline" name="format" value="offline" required>
+      <label for="offline">Офлайн</label>
+    </p>
+    <p>
+      <label for="tshirt">Розмір футболки <abbr title="обов'язкове поле">*</abbr></label><br>
+      <select id="tshirt" name="tshirt" required>
+        <option value="">Оберіть розмір</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+      </select>
+    </p>
+    <h3>Харчові вподобання</h3>
+    <p>
+      <input type="checkbox" id="vegan" name="food" value="vegan">
+      <label for="vegan">Вегетаріанське</label><br>
+      <input type="checkbox" id="gluten" name="food" value="gluten">
+      <label for="gluten">Без глютену</label><br>
+      <input type="checkbox" id="no_guardrails" name="food" value="no_guardrails">
+      <label for="no_guardrails">Без обмежень</label>
+    </p>
+
+    <p>
+      <label for="start">Бажаний час початку</label><br>
+      <input type="time" id="start" name="start_time" min="09:00" max="18:00"><br>
+      <small>З 09:00 до 18:00</small>
+    </p>
+
+    <p>
+      <label for="color">Колір команди</label><br>
+      <input type="color" id="color" name="team_color">
+    </p>
+    <p>
+      <label for="ghlink">Посилання на GitHub</label><br>
+      <input type="url" id="ghlink" name="github_link" placeholder="https://github.com/..." size="30">
+    </p>
+    <p>
+      <label for="motivation">Чому ти хочеш взяти участь?</label><br>
+      <textarea id="motivation" name="motivation" rows="5" cols="40" maxlength="500"></textarea><br>
+      <small>До 500 символів</small>
+    </p>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend><h2>Акаунт</h2></legend>
+    <p>
+      <label for="login">Логін <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="text" id="login" name="login" minlength="4" maxlength="16" pattern="[A-Za-z0-9_]+" title="Лише латиниця, цифри та _" size="30" required><br>
+      <small>4-16 символів: латиниця, цифри та _</small>
+    </p>
+    <p>
+      <label for="password">Пароль <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="password" id="password" name="password" minlength="8" maxlength="20" size="30" required><br>
+      <small>8-20 символів</small>
+    </p>
+    <p>
+      <label for="password2">Підтвердження пароля <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="password" id="password2" name="password2" minlength="8" maxlength="20" size="30" required>
+    </p>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend><h2>Згоди та відправка</h2></legend>
+    <p>
+      <input type="checkbox" id="rules" name="rules" value="yes" required>
+      <label for="rules">Погоджуюсь з правилами хакатону <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="checkbox" id="consent" name="consent" value="yes" required>
+      <label for="consent">Дозволяю обробку персональних даних <abbr title="обов'язкове поле">*</abbr></label><br>
+      <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+      <label for="newsletter">Хочу отримувати новини на email</label>
+    </p>
+    <p>
+      <button type="submit">Зареєструватися</button>
+      <button type="reset">Очистити форму</button>
+    </p>
+  </fieldset>
+</form>
+<br>
+Виконав Легоцький Артем, 251
+</body>
+
+</html>
