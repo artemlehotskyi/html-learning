@@ -25,6 +25,7 @@ apart and never overlap.
 | № | Topic | What it practises |
 |---|---|---|
 | [01](uni/labs/lab01) | Tables | `colspan`, `rowspan`, merged cells, `<caption>` |
+| [02](uni/labs/lab02) | Lists | `<ul>`, `<ol type="I">`, three levels of nesting |
 
 ---
 
