@@ -24,6 +24,7 @@ apart and never overlap.
 
 | № | Topic | What it practises |
 |---|---|---|
+| [01](uni/labs/lab01) | Tables | `colspan`, `rowspan`, merged cells, `<caption>` |
 
 ---
 
