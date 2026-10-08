@@ -22,11 +22,11 @@ apart and never overlap.
 
 ## 🎓 Labs
 
-| № | Topic | What it practises |
-|---|---|---|
-| [01](uni/labs/lab01) | Tables | `colspan`, `rowspan`, merged cells, `<caption>` |
-| [02](uni/labs/lab02) | Lists | `<ul>`, `<ol type="I">`, three levels of nesting |
-| [03](uni/labs/lab03) | Forms | input types, `<fieldset>`, `<datalist>`, validation via `required` / `pattern` |
+| № | Topic | What it practises | Live |
+|---|---|---|---|
+| [01](uni/labs/lab01) | Tables | `colspan`, `rowspan`, merged cells, `<caption>` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab01/) |
+| [02](uni/labs/lab02) | Lists | `<ul>`, `<ol type="I">`, three levels of nesting | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab02/) |
+| [03](uni/labs/lab03) | Forms | input types, `<fieldset>`, `<datalist>`, validation via `required` / `pattern` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab03/) |
 
 ---
 
@@ -43,7 +43,7 @@ html-learning/
 └── learning/            — topics at my own pace
 ```
 
-Every lab is a single self-contained `index.html` — open it in a browser, nothing to build
+Every lab is a single self-contained `index.html` — open it via the **Live** link or locally in a browser, nothing to build
 or install.
 
 ---
