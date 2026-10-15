@@ -27,6 +27,7 @@ apart and never overlap.
 | [01](uni/labs/lab01) | Tables | `colspan`, `rowspan`, merged cells, `<caption>` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab01/) |
 | [02](uni/labs/lab02) | Lists | `<ul>`, `<ol type="I">`, three levels of nesting | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab02/) |
 | [03](uni/labs/lab03) | Forms | input types, `<fieldset>`, `<datalist>`, validation via `required` / `pattern` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab03/) |
+| [04](uni/labs/lab04) | Media | `<video>`, `<audio>`, YouTube & Vimeo `<iframe>`, 16:9 container | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab04/) |
 
 ---
 
