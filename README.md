@@ -28,6 +28,7 @@ apart and never overlap.
 | [02](uni/labs/lab02) | Lists | `<ul>`, `<ol type="I">`, three levels of nesting | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab02/) |
 | [03](uni/labs/lab03) | Forms | input types, `<fieldset>`, `<datalist>`, validation via `required` / `pattern` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab03/) |
 | [04](uni/labs/lab04) | Media | `<video>`, `<audio>`, YouTube & Vimeo `<iframe>`, 16:9 container | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab04/) |
+| [05](uni/labs/lab05) | Semantics | `<header>`, `<main>`, `<article>`, `<aside>`, `<time>` — blog without a single `<div>` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab05/) |
 
 ---
 
