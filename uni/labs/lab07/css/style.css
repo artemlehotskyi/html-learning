@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+}
+
+.relative{
+  position: relative;
+  top: 30px;
+  left: 30px;
+  background-color: lightblue;
+}
+
+.absolute{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: plum;
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
+
+.long-page {
+  height: 2000px;
+}
