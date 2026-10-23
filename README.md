@@ -3,6 +3,7 @@
 <img src="assets/banner.svg" alt="HTML Learning" width="100%">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
 ![WebStorm](https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=webstorm&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-2A1610?style=for-the-badge&logo=apple&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In_Progress-F59E42?style=for-the-badge)
@@ -29,6 +30,7 @@ apart and never overlap.
 | [03](uni/labs/lab03) | Forms | input types, `<fieldset>`, `<datalist>`, validation via `required` / `pattern` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab03/) |
 | [04](uni/labs/lab04) | Media | `<video>`, `<audio>`, YouTube & Vimeo `<iframe>`, 16:9 container | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab04/) |
 | [05](uni/labs/lab05) | Semantics | `<header>`, `<main>`, `<article>`, `<aside>`, `<time>` — blog without a single `<div>` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab05/) |
+| [06](uni/labs/lab06) | Connecting CSS | external file, `<style>`, inline `style` — same result three ways | [external](https://artemlehotskyi.github.io/html-learning/uni/labs/lab06/index1.html) · [internal](https://artemlehotskyi.github.io/html-learning/uni/labs/lab06/index2.html) · [inline](https://artemlehotskyi.github.io/html-learning/uni/labs/lab06/index3.html) |
 
 ---
 
@@ -54,6 +56,6 @@ or install.
 
 | | |
 |---|---|
-| Language | HTML5 |
+| Language | HTML5, CSS3 |
 | IDE | JetBrains WebStorm |
 | OS | macOS |
