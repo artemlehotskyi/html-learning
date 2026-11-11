@@ -12,8 +12,8 @@
 | 2 | Рівномірний розподіл | `justify-content: space-evenly` |
 | 3 | Колонка | `flex-direction: column` |
 | 4 | Перенос рядків | `flex-wrap: wrap`, `width: 204px`, `align-content` |
-| 5 | Розподіл з проміжками | `justify-content: space-between` |
-| 6 | Вирівнювання по краях | `justify-content: space-between` |
+| 5 | Розподіл з проміжками | `justify-content: space-around` — проміжки і між квадратами, і по краях |
+| 6 | Вирівнювання по краях | `justify-content: space-between` — крайні квадрати притиснуті до країв |
 | 7 | Центрування з обмеженням | `align-items: flex-start` + `padding-top` |
 | 8 | Різні розміри | `:nth-child(n)` задає кожному квадрату свій розмір |
 | 9 | Двоколонкова сітка | `flex-wrap: wrap`, `width: 204px` |

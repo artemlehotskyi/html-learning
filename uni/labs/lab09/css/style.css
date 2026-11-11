@@ -48,8 +48,8 @@ h2{
   align-content: center;
 }
 .task5 {
-  justify-content: space-between;
-  align-items: center
+  justify-content: space-around;
+  align-items: center;
 }
 .task6 {
   justify-content: space-between;
