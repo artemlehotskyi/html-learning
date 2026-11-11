@@ -32,6 +32,7 @@ apart and never overlap.
 | [05](uni/labs/lab05) | Semantics | `<header>`, `<main>`, `<article>`, `<aside>`, `<time>` — blog without a single `<div>` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab05/) |
 | [06](uni/labs/lab06) | Connecting CSS | external file, `<style>`, inline `style` — same result three ways | [external](https://artemlehotskyi.github.io/html-learning/uni/labs/lab06/index1.html) · [internal](https://artemlehotskyi.github.io/html-learning/uni/labs/lab06/index2.html) · [inline](https://artemlehotskyi.github.io/html-learning/uni/labs/lab06/index3.html) |
 | [07](uni/labs/lab07) | Positioning | `static`, `relative`, `absolute`, `fixed` — flow, offsets, scroll | [static](https://artemlehotskyi.github.io/html-learning/uni/labs/lab07/index1.html) · [relative](https://artemlehotskyi.github.io/html-learning/uni/labs/lab07/index2.html) · [absolute](https://artemlehotskyi.github.io/html-learning/uni/labs/lab07/index3.html) · [fixed](https://artemlehotskyi.github.io/html-learning/uni/labs/lab07/index4.html) |
+| [08](uni/labs/lab08) | Text styling | fonts, `text-shadow`, `line-height`, `rgba`, `:hover` + `transition`, `text-transform` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab08/) |
 
 ---
 

@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  font-style: italic;
+  text-shadow: 2px 2px 4px gray;
+}
+
+h2 {
+  color: #3366cc;
+}
+
+.highlight {
+  color: white;
+  background-color: orange;
+  transition: background-color 0.3s;
+}
+
+.highlight:hover {
+  background-color: blue;
+}
+
+.note {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.main-text {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:first-child {
+  color: orange;
+}
+
+.caps {
+  text-transform: capitalize;
+}
