@@ -1,0 +1,86 @@
+h2{
+  text-align: center;
+  color: darkred;
+  font-family: Montserrat, sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 12px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.blue   { background: blue; }
+.green  { background: green; }
+.orange { background: orange; }
+.red    { background: red; }
+.purple { background: purple; }
+.cyan   { background: cyan ; }
+
+.task1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.task2 {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.task3 {
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.task4 {
+  flex-wrap: wrap;
+  width: 204px;
+  align-content: center;
+}
+.task5 {
+  justify-content: space-between;
+  align-items: center
+}
+.task6 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task7 {
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.task8 {
+  justify-content: center;
+  align-items: center;
+}
+.task8 .box:nth-child(1) { width: 40px; height: 40px; }
+.task8 .box:nth-child(2) { width: 80px; height: 80px; }
+.task8 .box:nth-child(3) { width: 60px; height: 60px; }
+.task8 .box:nth-child(4) { width: 45px; height: 45px; }
+
+.task9 {
+  flex-wrap: wrap;
+  width: 204px;
+  align-content: center;
+}
+
+.task10 {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 300px;
+  max-width: 100%;
+}

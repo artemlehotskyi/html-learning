@@ -33,6 +33,7 @@ apart and never overlap.
 | [06](uni/labs/lab06) | Connecting CSS | external file, `<style>`, inline `style` — same result three ways | [external](https://artemlehotskyi.github.io/html-learning/uni/labs/lab06/index1.html) · [internal](https://artemlehotskyi.github.io/html-learning/uni/labs/lab06/index2.html) · [inline](https://artemlehotskyi.github.io/html-learning/uni/labs/lab06/index3.html) |
 | [07](uni/labs/lab07) | Positioning | `static`, `relative`, `absolute`, `fixed` — flow, offsets, scroll | [static](https://artemlehotskyi.github.io/html-learning/uni/labs/lab07/index1.html) · [relative](https://artemlehotskyi.github.io/html-learning/uni/labs/lab07/index2.html) · [absolute](https://artemlehotskyi.github.io/html-learning/uni/labs/lab07/index3.html) · [fixed](https://artemlehotskyi.github.io/html-learning/uni/labs/lab07/index4.html) |
 | [08](uni/labs/lab08) | Text styling | fonts, `text-shadow`, `line-height`, `rgba`, `:hover` + `transition`, `text-transform` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab08/) |
+| [09](uni/labs/lab09) | Flexbox | 10 drills: `justify-content`, `align-items`, `flex-direction`, `flex-wrap`, `gap` | [▶ open](https://artemlehotskyi.github.io/html-learning/uni/labs/lab09/) |
 
 ---
 
